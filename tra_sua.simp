@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.80" multi-file="no" uid="simpe0feb5912128418fb1be382aefcae1ec">
+  <meta>
+    <name>tra_sua</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>6</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>277</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>44</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-da754d9a589f43a58ef6cf7f03cfb21b" name="" task-id-sequence="0">
+    <working-schedule uid="ws-6ee17787e5c2423d86db2afb32134039" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-4de84775f98148df9170e07291c18855" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-1031de1ecaf94fcdb8b6bb6c411ce57a" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="varchar" name="varchar" />
+        <type id="Date" name="Date" />
+      </types>
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pfe0ee26064f948b2a497e5e7413b3e2e_197016046" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>03/06/2023 16:02:29</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p28d3cfed0cfc439ebddb62281853f33d_193962227" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-100,156">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/06/2023 16:02:29</creation-date>
+          <change-date>03/06/2023 16:42:03</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="7d9ad866df934b14b3979ec03ad3aeaf" cid="PROP034" type="property" name="id" owner="e083c561083e4836b000fae1ecd47220" creator="" creation-date="03/06/2023 16:29:49" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="5a333b2c93bc4833b0fa60b7ee04042b" cid="C004" type="class" name="TrangThai" creator="" creation-date="03/06/2023 16:23:10" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="ac513ba9cb2be4a789d9fb8c99c7f228939" cid="PROP024" name="id" creation-date="03/06/2023 16:23:18" property-ref="46bc688beb29412d8e326699da2fc041" />
+              <attribute id="ab1c2ea5ae2ba491c91473c2c31b7a34163" cid="PROP025" name="ten_trang_thai" creation-date="03/06/2023 16:23:21" property-ref="d90fd867780e45d0a6b0c06af7d6c73b" />
+              <attribute id="a6dc8e26808e441cca68dbf9ac04b8be1122" cid="PROP033" name="loai" creation-date="03/06/2023 16:27:16" property-ref="b8c0b1bbd766495fb70f6065ce823af8" />
+            </attributes>
+          </item>
+          <item id="eae4c43de9b1417cb95755881e5be41e" cid="PROP016" type="property" name="id" owner="a0c57b54614b4e89897661d0b07e1202" creator="" creation-date="03/06/2023 16:14:50" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="60a63b72719943608078fea309ef884c" cid="PROP005" type="property" name="gia" owner="1a0a59a9fde943599819f4c5d32d7057" creator="" creation-date="03/06/2023 16:03:53" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="85de23a6abd44dd0a10663374763f1bb" cid="PROP015" type="property" name="id_loai_san_pham" owner="1a0a59a9fde943599819f4c5d32d7057" creator="" creation-date="03/06/2023 16:12:49" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="5f1c272d9a484248ad81e7877b83f793" cid="PROP019" type="property" name="password" owner="a0c57b54614b4e89897661d0b07e1202" creator="" creation-date="03/06/2023 16:15:32" visibility="private">
+            <structural-feature type="Char" type-id="Uml.Char" />
+          </item>
+          <item id="fc18d7ad256e4936b9dae31d5d99456a" cid="PROP040" type="property" name="anh_san_pham" owner="1a0a59a9fde943599819f4c5d32d7057" creator="" creation-date="03/06/2023 16:32:20" visibility="private">
+            <structural-feature type="Char" type-id="Uml.Char" />
+          </item>
+          <item id="5274abb73f27480ca443ae22950cb408" cid="PROP028" type="property" name="ngay_dat_hang" owner="176a48c6ffd148e4bf4a539fd739594f" creator="" creation-date="03/06/2023 16:25:56" visibility="private">
+            <structural-feature type="Date" type-id="Date" />
+          </item>
+          <item id="85a3819667df45a188dcb3fd1e63c3a2" cid="PROP004" type="property" name="so_luong" owner="1a0a59a9fde943599819f4c5d32d7057" creator="" creation-date="03/06/2023 16:03:41" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="7155f32c57ae496c9f980802c2f7c6ab" cid="PROP013" type="property" name="mo_ta" owner="di10eb705a9d7c4da5bec1a95271fb76cd5420" creator="" creation-date="03/06/2023 16:05:02" visibility="private">
+            <structural-feature type="varchar" type-id="varchar" />
+          </item>
+          <item id="a344fd9aa5134e9e9dde63246ddac0d0" cid="PROP030" type="property" name="dia_chi" owner="176a48c6ffd148e4bf4a539fd739594f" creator="" creation-date="03/06/2023 16:26:15" visibility="private">
+            <structural-feature type="varchar" type-id="varchar" />
+          </item>
+          <item id="ccef08a986c64c4da47e4e4ee8b6bb36" cid="PROP043" type="property" name="mo_ta" owner="1a0a59a9fde943599819f4c5d32d7057" creation-date="03/09/2023 18:06:37" visibility="private">
+            <structural-feature type="varchar" type-id="varchar" />
+          </item>
+          <item id="be6992c5e9ac4dbfa66bb749a94c3f94" cid="PROP037" type="property" name="so_luong" owner="e083c561083e4836b000fae1ecd47220" creator="" creation-date="03/06/2023 16:30:40" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="3e2efbb535c1455ca80154298bcad626" cid="PROP018" type="property" name="email" owner="a0c57b54614b4e89897661d0b07e1202" creator="" creation-date="03/06/2023 16:15:28" visibility="private">
+            <structural-feature type="Char" type-id="Uml.Char" />
+          </item>
+          <item id="1a0a59a9fde943599819f4c5d32d7057" cid="C001" type="class" name="SanPham" creator="" creation-date="03/06/2023 16:02:49" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="ac62172d1235147058e674b2cad04145f856" cid="PROP001" name="id" creation-date="03/06/2023 16:03:05" property-ref="bb8a406b8aa74e0883d02e7fb09f1bbe" />
+              <attribute id="af8ad4c3979874e25ab6d155f9b399b1c260" cid="PROP002" name="slug" creation-date="03/06/2023 16:03:10" property-ref="579656162fa54c3694502b0f2802443e" />
+              <attribute id="a7fc6f87ed16e42e1837f5ad8d18d3324967" cid="PROP015" name="id_loai_san_pham" creation-date="03/06/2023 16:12:49" property-ref="85de23a6abd44dd0a10663374763f1bb" />
+              <attribute id="ab8f8424d84444e9ab36a8c1f422565e8490" cid="PROP003" name="ten_san_pham" creation-date="03/06/2023 16:03:25" property-ref="f5b2d58c52764520a4a570d1550bb550" />
+              <attribute id="ab4fce908f08e43249584a6eeca3c8805275" cid="PROP040" name="anh_san_pham" creation-date="03/06/2023 16:32:20" property-ref="fc18d7ad256e4936b9dae31d5d99456a" />
+              <attribute id="a903d6abd0dc74ef284aa8bf6a1c397fd286" cid="PROP023" name="kich_co" creation-date="03/06/2023 16:18:42" property-ref="39f8fe61505b4d4c8912dc480f4ec868" />
+              <attribute id="acebe1457ffa14109b3e479d179cbee1b914" cid="PROP004" name="so_luong" creation-date="03/06/2023 16:03:41" property-ref="85a3819667df45a188dcb3fd1e63c3a2" />
+              <attribute id="a9aab1b612bbb47cc849366928d6318ad996" cid="PROP005" name="gia" creation-date="03/06/2023 16:03:53" property-ref="60a63b72719943608078fea309ef884c" />
+              <attribute id="ac4d06a5072534954800a0e98ab59e26f566" cid="PROP006" name="gia_goc" creation-date="03/06/2023 16:04:14" property-ref="0aa01c025838401cb433f934dd5ba15b" />
+              <attribute id="a61c781929dde4af79e7024339b8f819b120" cid="PROP014" name="id_trang_thai" creation-date="03/06/2023 16:09:27" property-ref="5e50991da6d3484f804ef809d5530815" />
+              <attribute id="a1a87752fd83a403eafa76e0879dd8ead347" cid="PROP043" name="mo_ta" creation-date="03/09/2023 18:06:37" property-ref="ccef08a986c64c4da47e4e4ee8b6bb36" />
+            </attributes>
+          </item>
+          <item id="e1ebf279d4c14f0b920b96a30564f533" cid="PROP042" type="property" name="sdt" owner="176a48c6ffd148e4bf4a539fd739594f" creation-date="03/08/2023 00:51:36" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="579656162fa54c3694502b0f2802443e" cid="PROP002" type="property" name="slug" owner="1a0a59a9fde943599819f4c5d32d7057" creator="" creation-date="03/06/2023 16:03:10" visibility="private">
+            <structural-feature type="Char" type-id="Uml.Char" />
+          </item>
+          <item id="di6222727c3a044a3093ed88f9a390fadd8648" cid="PROP008" type="property" name="slug" owner="di10eb705a9d7c4da5bec1a95271fb76cd5420" creator="" creation-date="03/06/2023 16:03:10" visibility="private">
+            <structural-feature type="Char" type-id="Uml.Char" />
+          </item>
+          <item id="68e071ee753740dfb74bcea51cbba033" cid="PROP026" type="property" name="id" owner="176a48c6ffd148e4bf4a539fd739594f" creator="" creation-date="03/06/2023 16:24:19" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="39f8fe61505b4d4c8912dc480f4ec868" cid="PROP023" type="property" name="kich_co" owner="1a0a59a9fde943599819f4c5d32d7057" creator="" creation-date="03/06/2023 16:18:42" visibility="private">
+            <structural-feature type="Char" type-id="Uml.Char" />
+          </item>
+          <item id="5e50991da6d3484f804ef809d5530815" cid="PROP014" type="property" name="id_trang_thai" owner="1a0a59a9fde943599819f4c5d32d7057" creator="" creation-date="03/06/2023 16:09:27" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="f5b2d58c52764520a4a570d1550bb550" cid="PROP003" type="property" name="ten_san_pham" owner="1a0a59a9fde943599819f4c5d32d7057" creator="" creation-date="03/06/2023 16:03:25" visibility="private">
+            <structural-feature type="varchar" type-id="varchar" />
+          </item>
+          <item id="43f498d9f9c04062a452134979feddee" cid="PROP038" type="property" name="thanh_tien" owner="e083c561083e4836b000fae1ecd47220" creator="" creation-date="03/06/2023 16:30:52" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="di10eb705a9d7c4da5bec1a95271fb76cd5420" cid="C002" type="class" name="LoaiSanPham" creator="" creation-date="03/06/2023 16:02:49" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="ac62172d1235147058e674b2cad04145f856" cid="PROP007" name="id" creation-date="03/06/2023 16:03:05" property-ref="di6072b07c00614b58a6e10d87fc3192c68648" />
+              <attribute id="af8ad4c3979874e25ab6d155f9b399b1c260" cid="PROP008" name="slug" creation-date="03/06/2023 16:03:10" property-ref="di6222727c3a044a3093ed88f9a390fadd8648" />
+              <attribute id="ab8f8424d84444e9ab36a8c1f422565e8490" cid="PROP009" name="ten_loai" creation-date="03/06/2023 16:03:25" property-ref="dia1b325e4aabd4c6f8557952737d2deed8648" />
+              <attribute id="a93f89b0568514d778521e7598a79d787319" cid="PROP013" name="mo_ta" creation-date="03/06/2023 16:05:02" property-ref="7155f32c57ae496c9f980802c2f7c6ab" />
+            </attributes>
+          </item>
+          <item id="dia1b325e4aabd4c6f8557952737d2deed8648" cid="PROP009" type="property" name="ten_loai" owner="di10eb705a9d7c4da5bec1a95271fb76cd5420" creator="" creation-date="03/06/2023 16:03:25" visibility="private">
+            <structural-feature type="varchar" type-id="varchar" />
+          </item>
+          <item id="176a48c6ffd148e4bf4a539fd739594f" cid="C005" type="class" name="DonHang" creator="" creation-date="03/06/2023 16:24:16" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a7cb003b0ba5c42d4975f5d90a93f72d8574" cid="PROP026" name="id" creation-date="03/06/2023 16:24:19" property-ref="68e071ee753740dfb74bcea51cbba033" />
+              <attribute id="ad44078335c1844b78c052d2075a1c3e9548" cid="PROP027" name="ten_khach" creation-date="03/06/2023 16:25:14" property-ref="1f9712e800524d7cb0caa739ef5efc53" />
+              <attribute id="ae272941216fc4315b4f07b0794d5ccf7618" cid="PROP028" name="ngay_dat_hang" creation-date="03/06/2023 16:25:56" property-ref="5274abb73f27480ca443ae22950cb408" />
+              <attribute id="aa9550a57f77c4112a33bb55bb5470226857" cid="PROP030" name="dia_chi" creation-date="03/06/2023 16:26:15" property-ref="a344fd9aa5134e9e9dde63246ddac0d0" />
+              <attribute id="a951b7852bc124bb5b651d266c8383afa440" cid="PROP031" name="id_trangthai" creation-date="03/06/2023 16:26:26" property-ref="5e0eaf7b2e834cbbaaad6b92a16a08a7" />
+              <attribute id="a9cf820bacab14374aeb5320bcb5e5817775" cid="PROP042" name="sdt" creation-date="03/08/2023 00:51:36" property-ref="e1ebf279d4c14f0b920b96a30564f533" />
+            </attributes>
+          </item>
+          <item id="a0c57b54614b4e89897661d0b07e1202" cid="C003" type="class" name="Users" creator="" creation-date="03/06/2023 16:14:34" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="ad1be237ad4044ce8a05a0a4ed63f0e3e258" cid="PROP016" name="id" creation-date="03/06/2023 16:14:50" property-ref="eae4c43de9b1417cb95755881e5be41e" />
+              <attribute id="a8d39c161233b44a883f9f69c27927a0d463" cid="PROP017" name="name" creation-date="03/06/2023 16:14:54" property-ref="8b779f5cb97e481f9f72faedf9882735" />
+              <attribute id="ab99fa7c91ee64482b1ac144ee94239a8292" cid="PROP018" name="email" creation-date="03/06/2023 16:15:28" property-ref="3e2efbb535c1455ca80154298bcad626" />
+              <attribute id="ab488905a32f34c8f98410cf5d43d26ac549" cid="PROP019" name="password" creation-date="03/06/2023 16:15:32" property-ref="5f1c272d9a484248ad81e7877b83f793" />
+            </attributes>
+          </item>
+          <item id="f86c05fbb9a140e9916bcf303dfa5abc" cid="PROP039" type="property" name="id_donhang" owner="e083c561083e4836b000fae1ecd47220" creator="" creation-date="03/06/2023 16:31:07" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="1f9712e800524d7cb0caa739ef5efc53" cid="PROP027" type="property" name="ten_khach" owner="176a48c6ffd148e4bf4a539fd739594f" creator="" creation-date="03/06/2023 16:25:14" visibility="private">
+            <structural-feature type="varchar" type-id="varchar" />
+          </item>
+          <item id="0aa01c025838401cb433f934dd5ba15b" cid="PROP006" type="property" name="gia_goc" owner="1a0a59a9fde943599819f4c5d32d7057" creator="" creation-date="03/06/2023 16:04:14" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="di6072b07c00614b58a6e10d87fc3192c68648" cid="PROP007" type="property" name="id" owner="di10eb705a9d7c4da5bec1a95271fb76cd5420" creator="" creation-date="03/06/2023 16:03:05" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="d90fd867780e45d0a6b0c06af7d6c73b" cid="PROP025" type="property" name="ten_trang_thai" owner="5a333b2c93bc4833b0fa60b7ee04042b" creator="" creation-date="03/06/2023 16:23:21" visibility="private">
+            <structural-feature type="varchar" type-id="varchar" />
+          </item>
+          <item id="5e0eaf7b2e834cbbaaad6b92a16a08a7" cid="PROP031" type="property" name="id_trangthai" owner="176a48c6ffd148e4bf4a539fd739594f" creator="" creation-date="03/06/2023 16:26:26" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="8b779f5cb97e481f9f72faedf9882735" cid="PROP017" type="property" name="name" owner="a0c57b54614b4e89897661d0b07e1202" creator="" creation-date="03/06/2023 16:14:54" visibility="private">
+            <structural-feature type="Char" type-id="Uml.Char" />
+          </item>
+          <item id="b8c0b1bbd766495fb70f6065ce823af8" cid="PROP033" type="property" name="loai" owner="5a333b2c93bc4833b0fa60b7ee04042b" creator="" creation-date="03/06/2023 16:27:16" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="bb8a406b8aa74e0883d02e7fb09f1bbe" cid="PROP001" type="property" name="id" owner="1a0a59a9fde943599819f4c5d32d7057" creator="" creation-date="03/06/2023 16:03:05" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="e083c561083e4836b000fae1ecd47220" cid="C006" type="class" name="ChiTietDonHang" creator="" creation-date="03/06/2023 16:29:44" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="ade97f745b32d47628c7a8e1e0130f4a691" cid="PROP034" name="id" creation-date="03/06/2023 16:29:49" property-ref="7d9ad866df934b14b3979ec03ad3aeaf" />
+              <attribute id="a2f046266537c4fc789f82e40da0eb8c1309" cid="PROP039" name="id_donhang" creation-date="03/06/2023 16:31:07" property-ref="f86c05fbb9a140e9916bcf303dfa5abc" />
+              <attribute id="a073ea3e1843042e68ae956455c4cc82c917" cid="PROP035" name="id_sanpham" creation-date="03/06/2023 16:30:08" property-ref="dae504ff157b499a9f865b9727c56705" />
+              <attribute id="aac25243ea6a34f1c862613b5c0c2b4e4805" cid="PROP037" name="so_luong" creation-date="03/06/2023 16:30:40" property-ref="be6992c5e9ac4dbfa66bb749a94c3f94" />
+              <attribute id="a9b879a4c12da4c75b7614a826ad09df6645" cid="PROP036" name="gia" creation-date="03/06/2023 16:30:34" property-ref="8580b6aa17b046aa885b81228d3fa94a" />
+              <attribute id="a8eb08c8a5da84f7891315401bf0eb987501" cid="PROP038" name="thanh_tien" creation-date="03/06/2023 16:30:52" property-ref="43f498d9f9c04062a452134979feddee" />
+            </attributes>
+          </item>
+          <item id="46bc688beb29412d8e326699da2fc041" cid="PROP024" type="property" name="id" owner="5a333b2c93bc4833b0fa60b7ee04042b" creator="" creation-date="03/06/2023 16:23:18" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="dae504ff157b499a9f865b9727c56705" cid="PROP035" type="property" name="id_sanpham" owner="e083c561083e4836b000fae1ecd47220" creator="" creation-date="03/06/2023 16:30:08" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="8580b6aa17b046aa885b81228d3fa94a" cid="PROP036" type="property" name="gia" owner="e083c561083e4836b000fae1ecd47220" creator="" creation-date="03/06/2023 16:30:34" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+        </abstract-items>
+        <layer id="c465f1d1296947b4b04019ea0be2bfc3" name="Default" visible="true" enabled="true" locked="false">
+          <item id="1a0a59a9fde943599819f4c5d32d7057" iid="080f88d2efa24be1bbe2a22fd8789689" show-fields="true" creation-date="03/06/2023 16:02:49" order-index="0" type="entity">
+            <layout ax="540" ay="221" awidth="172" aheight="250" x="540" y="221" width="172" height="160" rotation-center="-16,0" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di10eb705a9d7c4da5bec1a95271fb76cd5420" iid="e459c13d90bd470a9a483f9e369c9fb8" show-fields="true" creation-date="03/06/2023 16:02:49" order-index="0" type="entity">
+            <layout ax="838" ay="221" awidth="172" aheight="127" x="838" y="221" width="172" height="127" rotation-center="-16,16.5" />
+            <classifier />
+            <class />
+          </item>
+          <item id="a0c57b54614b4e89897661d0b07e1202" iid="17d2dc72831a4b02b8b2feadbe513e5a" show-fields="true" creation-date="03/06/2023 16:14:34" order-index="1" type="entity">
+            <layout ax="854" ay="471" awidth="140" aheight="139" x="854" y="471" width="140" height="139" rotation-center="0,10.5" />
+            <classifier />
+            <class />
+          </item>
+          <item id="5a333b2c93bc4833b0fa60b7ee04042b" iid="b06eda8fa35c4ced8df7768a21138057" show-fields="true" creation-date="03/06/2023 16:23:10" order-index="2" type="entity">
+            <layout ax="223" ay="229" awidth="153" aheight="111" x="223" y="229" width="153" height="111" rotation-center="-6.5,24.5" />
+            <classifier />
+            <class />
+          </item>
+          <item id="176a48c6ffd148e4bf4a539fd739594f" iid="aa64041ef1c84cd78ba5bb18e5ba4e93" show-fields="true" creation-date="03/06/2023 16:24:16" order-index="3" type="entity">
+            <layout ax="514" ay="530" awidth="172" aheight="155" x="514" y="530" width="172" height="144" rotation-center="-16,8" />
+            <classifier />
+            <class />
+          </item>
+          <item id="e083c561083e4836b000fae1ecd47220" iid="3e6f07143c1348ac9b63f9d5b7a82282" show-fields="true" creation-date="03/06/2023 16:29:44" order-index="4" type="entity">
+            <layout ax="230" ay="519" awidth="140" aheight="155" x="230" y="519" width="140" height="144" rotation-center="0,8" />
+            <classifier />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

@@ -6,9 +6,6 @@
                 <p class="welcome-msg ml-1">Thái Nguyên </p>
             </div>
             <div class="header-right">
-                <a href="assets/ajax/login.html" class="d-lg-show login sign-in"><i class="w-icon-account"></i>Đăng nhập</a>
-                <span class="delimiter d-lg-show">/</span>
-                <a href="assets/ajax/login.html" class="ml-0 d-lg-show login register">Đăng ký</a>
             </div>
         </div>
     </div>
@@ -17,22 +14,14 @@
     <div class="header-middle">
         <div class="container">
             <div class="header-left mr-md-4">
-                <a href="#" class="mobile-menu-toggle  w-icon-hamburger" aria-label="menu-toggle">
-                </a>
-                <form method="get" action="#"
-                    class="header-search hs-rounded d-none d-md-flex ml-4 ml-lg-0 input-wrapper">
-                    <input type="text" class="form-control" name="search" id="search" placeholder="Search..."
-                        required />
-                    <button class="btn btn-search" type="submit"><i class="w-icon-search"></i>
-                    </button>
-                </form>
+
             </div>
             <!-- End of Header Left -->
 
             <div class="header-center">
-                <a href="demo10.html" class="logo ml-lg-0">
-                    <img src="assets/images/demos/demo10/header-logo.png" alt="logo" width="145"
-                        height="45" />
+                <a href="{{ route('homepage') }}" class="logo ml-lg-0">
+                    <img src="{{ asset('frontendpublic/assets/images/demos/demo10/header-logo.png') }}" alt="logo"
+                        width="145" height="45" />
                 </a>
             </div>
             <!-- End of Header Center -->
@@ -47,13 +36,12 @@
                         <a href="tel:0123456789" class="phone-number font-weight-bolder ls-50">0123456789</a>
                     </div>
                 </div>
-                <div class="dropdown cart-dropdown cart-offcanvas mr-0 mr-lg-2">
-                    <div class="cart-overlay"></div>
-                    <a href="#" class="cart-toggle label-down link">
+                <div class="dropdown cart-dropdown mr-0 mr-lg-2">
+                    <a href="{{ route('gio-hang.index') }}" class="cart-toggle label-down link">
                         <i class="w-icon-cart">
-                            <span class="cart-count">20</span>
+                            <span class="cart-count" style="right: 0"></span>
                         </i>
-                        <span class="cart-label">Cart</span>
+                        <span class="cart-label">Giỏ hàng</span>
                     </a>
                 </div>
             </div>
@@ -69,7 +57,7 @@
                     <nav class="main-nav ml-8">
                         <ul class="menu active-underline">
                             <li class="active">
-                                <a href="demo10.html">Trang chủ</a>
+                                <a href="{{ route('homepage') }}">Trang chủ</a>
                             </li>
                             <li>
                                 <a href="shop-banner-sidebar.html">Sản phẩm</a>
@@ -129,31 +117,6 @@
                             <li><a href="blog.html">Classic</a></li>
                             <li><a href="blog-listing.html">Listing</a></li>
                             <li>
-                                <a href="https://www.portotheme.com/html/wolmart/blog-grid.html">Grid</a>
-                                <ul>
-                                    <li><a href="blog-grid-2cols.html">Grid 2 columns</a></li>
-                                    <li><a href="blog-grid-3cols.html">Grid 3 columns</a></li>
-                                    <li><a href="blog-grid-4cols.html">Grid 4 columns</a></li>
-                                    <li><a href="blog-grid-sidebar.html">Grid sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Masonry</a>
-                                <ul>
-                                    <li><a href="blog-masonry-2cols.html">Masonry 2 columns</a></li>
-                                    <li><a href="blog-masonry-3cols.html">Masonry 3 columns</a></li>
-                                    <li><a href="blog-masonry-4cols.html">Masonry 4 columns</a></li>
-                                    <li><a href="blog-masonry-sidebar.html">Masonry sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Mask</a>
-                                <ul>
-                                    <li><a href="blog-mask-grid.html">Blog mask grid</a></li>
-                                    <li><a href="blog-mask-masonry.html">Blog mask masonry</a></li>
-                                </ul>
-                            </li>
-                            <li>
                                 <a href="post-single.html">Single Post</a>
                             </li>
                         </ul>
@@ -182,51 +145,6 @@
                         </a>
                     </li>
                     <li>
-                        <a href="shop-fullwidth-banner.html">
-                            <i class="w-icon-electronics"></i>Electronics
-                        </a>
-                    </li>
-                    <li>
-                        <a href="shop-fullwidth-banner.html">
-                            <i class="w-icon-furniture"></i>Furniture
-                        </a>
-                    </li>
-                    <li>
-                        <a href="shop-fullwidth-banner.html">
-                            <i class="w-icon-heartbeat"></i>Healthy & Beauty
-                        </a>
-                    </li>
-                    <li>
-                        <a href="shop-fullwidth-banner.html">
-                            <i class="w-icon-gift"></i>Gift Ideas
-                        </a>
-                    </li>
-                    <li>
-                        <a href="shop-fullwidth-banner.html">
-                            <i class="w-icon-gamepad"></i>Toy & Games
-                        </a>
-                    </li>
-                    <li>
-                        <a href="shop-fullwidth-banner.html">
-                            <i class="w-icon-ice-cream"></i>Cooking
-                        </a>
-                    </li>
-                    <li>
-                        <a href="shop-fullwidth-banner.html">
-                            <i class="w-icon-ios"></i>Smart Phones
-                        </a>
-                    </li>
-                    <li>
-                        <a href="shop-fullwidth-banner.html">
-                            <i class="w-icon-camera"></i>Cameras & Photo
-                        </a>
-                    </li>
-                    <li>
-                        <a href="shop-fullwidth-banner.html">
-                            <i class="w-icon-ruby"></i>Accessories
-                        </a>
-                    </li>
-                    <li>
                         <a href="shop-banner-sidebar.html" class="font-weight-bold text-primary text-uppercase ls-25">
                             View All Categories<i class="w-icon-angle-right"></i>
                         </a>
@@ -237,3 +155,4 @@
     </div>
 </div>
 <!-- End of Mobile Menu -->
+
